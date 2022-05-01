@@ -1,0 +1,22 @@
+{
+  "name": "Imazer",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite --port 3003",
+    "watch": "rsw watch",
+    "build": "rsw build && pnpm build:fe",
+    "build:fe": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "rsw-img-effects": "link:/Users/oumar/CODESPACE/oumarbarry/playground/imazer/rsw-img-effects/pkg",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "unocss": "^0.32.8",
+    "vite": "^2.9.5",
+    "vite-plugin-rsw": "^2.0.2"
+  }
+}
